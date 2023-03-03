@@ -1,0 +1,50 @@
+.post-card {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  
+  .post-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .post-content {
+    padding: 10px;
+  }
+  
+  .post-content h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 10px;
+  }
+  
+  .post-content p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #1f1e1e;
+    margin-bottom: 10px;
+  }
+  
+  .post-content a {
+    display: inline-block;
+    background-color: #63a2e5;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .post-content a:hover {
+    background-color: #0069d9;
+  }
+  
